@@ -1,6 +1,6 @@
 # Getting Started with Create React App
-
-This project is react training from [atguigu](https://www.youtube.com/watch?v=mzLo7Z8GYdY)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a react training from [atguigu](https://www.youtube.com/watch?v=mzLo7Z8GYdY)
 
 ## tech stack：
 setupProxy.js to solve CORS issue in dev
@@ -13,7 +13,7 @@ running local server from \Downloads\react全家桶资料\react全家桶资料\0
 
 run command `node server` to start server: http://localhost:5000/search/users
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
