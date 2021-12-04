@@ -7,12 +7,13 @@ setupProxy.js to solve CORS issue in dev
 
 use axios lib to call rest api
 
+use pubsub to communicate between components
+
 utilize github users api 
 
 running local server from \Downloads\react全家桶资料\react全家桶资料\05_所需服务器\server\server
 
 run command `node server` to start server: http://localhost:5000/search/users
-
 
 
 ## Available Scripts
