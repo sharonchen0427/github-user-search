@@ -1,11 +1,35 @@
 import React, { Component } from 'react'
 // import Item from '../Item'
 import './index.css'
+import PubSub from 'pubsub-js'
 
+//Q:whe is satteObj came from?
 export default class List extends Component {
+    state={
+        users:[], //initial to be array
+        isFirst:true, //is it first time opening a page
+        isLoading:false,//flag: is loading
+        err:'', //store error msg
+      }
+
+      //set timer, set pubsub
+      //once the page had been render
+    componentDidMount(){
+        //_ as a placeholder to skip msg param
+        this.token=PubSub.subscribe('atguigu',(_,stateObj)=>{
+            this.setState(stateObj)
+        })
+    }
+
+    componentWillUnmount(){
+        PubSub.unsubscribe(this.token)
+        //this上面可以随便挂东西吗？
+    }
+
     render() {
         //console.log("this.props.users",this.props.users);
-        const{isFirst,isLoading,err,users}=this.props
+        const{users,isFirst,isLoading,err}=this.state 
+        // change to get from self's state
         return (
             <div className="row">
             {
