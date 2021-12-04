@@ -2,15 +2,16 @@
 
 This project is react training from [atguigu](https://www.youtube.com/watch?v=mzLo7Z8GYdY)
 
-## setupProxy.js to solve CORS issue in dev
+## tech stack：
+setupProxy.js to solve CORS issue in dev
 
-## use axios lib to call rest api
+use axios lib to call rest api
 
-## utilize github users api 
+utilize github users api 
 
-## running local server from \Downloads\react全家桶资料\react全家桶资料\05_所需服务器\server\server
+running local server from \Downloads\react全家桶资料\react全家桶资料\05_所需服务器\server\server
 
-## run command `node server` to start server: http://localhost:5000/search/users
+run command `node server` to start server: http://localhost:5000/search/users
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
